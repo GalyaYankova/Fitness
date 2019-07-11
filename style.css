@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif&display=swap');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+    width: 85%;
+    margin: auto;
+}
+
+.top-part ul {
+    display: flex;
+    justify-content: space-between;
+    background: #D01919;
+    color: white;
+    margin-bottom: 0;
+}
+
+.top-part ul li {
+    list-style-type: none;
+}
+
+i{
+    margin: 2px;
+}
+
+.main {
+    background: url("../Requirements-and-Resources/image/fitness-main.jpg") no-repeat center;
+    background-size: cover;
+    color: white;
+}
+
+.nav-part ul{
+    display: flex;
+    margin-top: 0;
+    justify-content: flex-end;
+    font-size: 12px;
+}
+
+.nav-part ul li{
+   margin-left: 6px;
+   padding-left: 5px;
+   margin-top: 14px;
+   list-style-type: none;
+}
+
+.nav-part ul li:last-of-type{
+    margin-right: 7px;
+}
+
+.header-part {
+    text-align: center;
+}
+
+.header-part h1 {
+    margin-top: 120px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    letter-spacing: 6px;
+}
+
+.header-part p{
+    width: 40%;
+    margin: auto;
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+.header-part > button {
+    background: #D01919;
+    color: white;
+    margin-bottom: 40px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.bottom-main,
+.top-main {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+
+.top-main > article {
+    width: 40%;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-top: 1px solid transparent;
+}
+
+.top-main > article > img {
+    width: 15%;
+    padding-top: 20px;
+}
+
+.top-main article h4 {
+    font-size: 18px;
+    color: #D01919;
+    font-weight: 800;
+    letter-spacing: 1.5px; 
+}
+
+main h3 {
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 1px; 
+    font-weight: 900;
+}
+
+.additional {
+    width: 100%;
+    background: #EFEFEF;
+    text-align: center;
+}
+
+.bottom-main {
+    width: 100%;
+    margin: auto;
+}
+
+.bottom-main > article {
+    width: 70%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.bottom-main > article > img {
+    width: 68%;
+    border-radius: 10px;
+}
+
+.bottom-main > article > h4 { 
+    margin-bottom: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
+
+.bottom-main > article > p {
+    width: 70%;
+    margin: 20px auto;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+h3 > span {
+    padding-bottom: 10px;
+    border-bottom: 1px solid red;
+}
+
+.bottom-main > article > div {
+    color: #D01919;
+    font-weight: 100;
+    font-family: 'PT Serif', serif;
+}
+
+.additional h3{
+    padding-top: 22px;
+}
+
+footer {
+    background: #D01919;
+    text-align: center;
+    font-size: 12px;
+    padding: 7px 0;
+}
+
+footer > p {
+    margin: 0 0;
+}
