@@ -24,7 +24,7 @@ i{
 }
 
 .main {
-    background: url("./image/fitness-main.jpg") no-repeat center;
+    background: url(".image/fitness-main.jpg") no-repeat center;
     background-size: cover;
     color: white;
 }
